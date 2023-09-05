@@ -12,8 +12,5 @@ namespace ModelsDB.ManualPanel
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        
-        //another test
-        //
     }
 }
