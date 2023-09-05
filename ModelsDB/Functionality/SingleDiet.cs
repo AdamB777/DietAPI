@@ -17,7 +17,8 @@ namespace ModelsDB.Functionality
         public Diet Diet { get; set; }
         public int DayWeekId { get; set; }
         public DayWeek DayWeek { get; set; }
-        public MealTime MealTimeId { get; set; }
+        public int MealTimeId { get; set; }
+        public MealTime MealTime { get; set; }
         public int CategoryOfDietId { get; set; }
         public CategoryOfDiet CategoryOfDiet { get; set; }
 
