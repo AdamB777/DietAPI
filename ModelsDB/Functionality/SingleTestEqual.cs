@@ -1,7 +1,12 @@
-﻿namespace ModelsDB
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ModelsDB
 {
+    [Table("SingleTestEqual")]
     public class SingleTestEqual : BaseModel
     {
+        [Key]
         public int Id { get; set; }
         public float test1 { get; set; }
         public float test2 { get; set; }

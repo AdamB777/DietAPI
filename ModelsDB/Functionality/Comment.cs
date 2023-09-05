@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelsDB
 {
+    [Table("Comment")]
     public class Comment : BaseModel
     {
         [Key]

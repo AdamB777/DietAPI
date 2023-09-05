@@ -1,8 +1,10 @@
 ﻿using ModelsDB.Functionality;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ModelsDB
 {
-    public class Patient:MyUser
+    [Table("Patient")]
+    public class Patient : User
     {
         public Dietician Dietician { get; set; }
         public int DieticianId { get; set; }

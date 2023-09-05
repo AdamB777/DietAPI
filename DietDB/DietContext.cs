@@ -22,7 +22,7 @@ namespace DietDB
         public DbSet<Diploma> Diplomas { get; set; }
         public DbSet<Dish> Dishes { get; set; }
         public DbSet<FoodCatalog> FoodCatalogs { get; set; }
-        public DbSet<Ingridient> Ingridients { get; set; }
+        public DbSet<Ingredient> Ingridients { get; set; }
         public DbSet<MealTime> MealTime { get; set; }
         public DbSet<Measure> Measures { get; set; }
         public DbSet<Message> Messages { get; set; }

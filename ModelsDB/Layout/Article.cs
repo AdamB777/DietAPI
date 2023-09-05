@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ModelsDB.Layout
 {
-    
+    [Table("Article")]
     public class Article : BaseModel
     {
         [Key]
@@ -25,6 +25,5 @@ namespace ModelsDB.Layout
         //[MaxLength(10, ErrorMessage = "BloggerName must be 10 characters or less"), MinLength(5)]
         //[Column("BlogDescription", TypeName = "ntext")]
         //[Display(Name = "Choose category")]
-        //[Table("InternalBlogs")]
     }
 }

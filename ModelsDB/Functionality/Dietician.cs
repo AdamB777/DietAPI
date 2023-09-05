@@ -1,13 +1,15 @@
 ﻿using ModelsDB.Functionality;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ModelsDB
 {
-    public class Dietician:MyUser
+    [Table("Dietician")]
+    public class Dietician : User
     {
         public int RatingId { get; set; }
         public Rating Rating { get; set; }
