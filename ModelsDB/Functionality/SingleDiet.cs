@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ModelsDB.Functionality
+{
+    public class SingleDiet : BaseModel
+    {
+        public int MealTimeHour { get; set; }
+        public int MealTimeMinute { get; set; }
+        public DateTime DateStart { get; set; }
+        public DateTime DateEnd { get; set; }
+
+        public int DietId { get; set; }
+        public Diet Diet { get; set; }
+        public int DayWeekId { get; set; }
+        public DayWeek DayWeek { get; set; }
+        public MealTime MealTimeId { get; set; }
+        public int CategoryOfDietId { get; set; }
+        public CategoryOfDiet CategoryOfDiet { get; set; }
+
+    }
+}
