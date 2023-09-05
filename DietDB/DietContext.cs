@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ModelsDB;
 using ModelsDB.Functionality;
+using ModelsDB.Layout;
+using ModelsDB.ManualPanel;
 
 namespace DietDB
 {
@@ -37,5 +39,23 @@ namespace DietDB
         public DbSet<Term> Terms { get; set; }
         public DbSet<TestEqual> TestEquals { get; set; }
         public DbSet<Visit> Visits { get; set; }
+        public DbSet<Article> Articles { get; set; }
+        public DbSet<Carousel> Carousels { get; set; }
+        public DbSet<Footer> Footers { get; set; }
+        public DbSet<LayoutCategory> LayoutCategories { get; set; }
+        public DbSet<LayoutPhoto> LayoutPhotos { get; set; }
+        public DbSet<Link> Links { get; set; }
+        public DbSet<Navbar> Navbars { get; set; }
+        public DbSet<News> Newses { get; set; }
+        public DbSet<SocialMedia> SocialMedia { get; set; }
+        public DbSet<SubTab> SubTabs { get; set; }
+        public DbSet<Tab> Tabs { get; set; }
+        public DbSet<Tag> Tags { get; set; }
+        public DbSet<CategoryType> CategoryTypes { get; set; }
+        public DbSet<Content> Contents { get; set; }
+        public DbSet<Document> Documents { get; set; }
+        public DbSet<FileCategory> FileCategories { get; set; }
+        public DbSet<Manual> Manuals { get; set; }
+        public DbSet<Tooltip> Tooltips { get; set; }
     }
 }
