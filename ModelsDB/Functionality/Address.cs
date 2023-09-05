@@ -10,8 +10,7 @@
         public string Street { get; set; }
         public string LocalNo { get; set; }
 
-        public User User { get; set; }
-        public int UserId { get; set; }
+        public List<MyUser> Users { get; set; }
         public int OfficeId { get; set; }
         public Office Office { get; set; }
 

@@ -1,7 +1,11 @@
-﻿namespace ModelsDB
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ModelsDB
 {
     public class Comment : BaseModel
     {
+        [Key]
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
 

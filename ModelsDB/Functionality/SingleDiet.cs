@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ namespace ModelsDB.Functionality
 {
     public class SingleDiet : BaseModel
     {
+        [Key]
+        public int Id { get; set; }
         public int MealTimeHour { get; set; }
         public int MealTimeMinute { get; set; }
         public DateTime DateStart { get; set; }
