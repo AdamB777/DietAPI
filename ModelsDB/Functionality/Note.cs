@@ -7,9 +7,7 @@
         public string Description { get; set; }
         public bool isVisibleToPatient { get; set; }
 
-        public int UserId { get; set; }
-        public MyUser User { get; set; }
-        public int PatientId { get; set; }
-        public Patient Patient { get; set; }
+        public List<Dietician> Dieticians { get; set; }
+        public List<Patient> Patient { get; set; }
     }
 }
