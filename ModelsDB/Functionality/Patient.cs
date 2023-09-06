@@ -2,12 +2,8 @@
 
 namespace ModelsDB
 {
-    public class Patient:User
+    public class Patient:MyUser
     {
-        public User User { get; set; }
-        public int UserId { get; set; }
-
-
         public Dietician Dietician { get; set; }
         public int DieticianId { get; set; }
         public List<PatientCard> PatientCard { get; set; }

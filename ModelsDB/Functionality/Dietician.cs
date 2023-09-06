@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace ModelsDB
 {
-    public class Dietician:User
+    public class Dietician:MyUser
     {
-        public int UserId { get; set; }
-        public User User { get; set; }
         public int RatingId { get; set; }
         public Rating Rating { get; set; }
         public List<Message> Messages { get; set; }

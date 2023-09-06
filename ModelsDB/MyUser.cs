@@ -2,7 +2,7 @@
 
 namespace ModelsDB
 {
-    public class User:BaseModel
+    public class MyUser:BaseModel
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
@@ -19,6 +19,5 @@ namespace ModelsDB
         public Address Address { get; set; }
         public int AddressId { get; set; }
         public List<Note> Notes { get; set; }
-        public int NoteId { get; set; }
     }
 }
