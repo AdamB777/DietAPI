@@ -15,5 +15,8 @@ namespace ModelsDB.Layout
         public int Id { get; set; }
         public string PhotoURL { get; set; }
         public string Description { get; set; }
+        public List<Article> Articles { get; set; }
+        public List<Carousel> Carousels { get; set; }
+        public List<News> Newses { get; set; }
     }
 }

@@ -13,5 +13,7 @@ namespace ModelsDB
         public int PatientId { get; set; }
         public Patient Patient { get; set; }
         public List<SingleTestEqual> SingleTestEqual { get; set; }
+        public int PatientCardId { get; set; }
+        public PatientCard PatientCard { get; set; }
     }
 }

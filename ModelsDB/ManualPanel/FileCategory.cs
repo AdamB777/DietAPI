@@ -17,5 +17,6 @@ namespace ModelsDB.ManualPanel
 
         public CategoryType CategoryType { get; set; }
         public int CategoryTypeId { get; set; }
+        public List<Manual> Manuals { get; set; }
     }
 }

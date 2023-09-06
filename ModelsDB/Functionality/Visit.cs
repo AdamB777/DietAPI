@@ -19,7 +19,9 @@ namespace ModelsDB.Functionality
         public Term Term { get; set; }
         public int StatusId { get; set; }
         public Status Status { get; set; }
-        public List<Dietician> Dieticians { get; set; }
-        public List<Patient> Patients { get; set; }
+        public int DieticianId { get; set; }
+        public Dietician Dietician { get; set; }
+        public Patient Patient { get; set; }
+        public int PatientId { get; set; }
     }
 }

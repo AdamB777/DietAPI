@@ -18,5 +18,7 @@ namespace ModelsDB.Layout
 
         public Link Link { get; set; }
         public int LinkId { get; set; }
+        public Footer Footer { get; set; }
+        public int FooterId { get; set; }
     }
 }

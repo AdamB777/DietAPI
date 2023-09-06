@@ -17,5 +17,7 @@ namespace ModelsDB.Layout
 
         public Link Link { get; set; }
         public int LinkId { get; set; }
+        public Tab Tab { get; set; }
+        public int TabId { get; set; }
     }
 }

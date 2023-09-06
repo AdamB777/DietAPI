@@ -14,6 +14,7 @@ namespace ModelsDB.Layout
         [Key]
         public int Id { get; set; }
 
+        public List<MainNavbar> MainNavbars { get; set; }
         public List<SubTab> SubTabs { get; set; }
     }
 }

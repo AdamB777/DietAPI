@@ -16,13 +16,10 @@ namespace ModelsDB
         public float Glycemic { get; set; }
         public string DishPhotoUrl { get; set; }
 
-        public int FoodCatalogId { get; set; }
-        public FoodCatalog FoodCatalog { get; set; }
-        public int IngridientId { get; set; }
-        public Ingredient Ingridient { get; set; }
-        public int MeasureId { get; set; }
-        public Measure Measure { get; set; }
+        public List<FoodCatalog> FoodCatalogs { get; set; }
+        public List<Ingredient> Ingredients { get; set; }
+        public List<Measure> Measures { get; set; }
         public int RecipesId { get; set; }
-        public Recipe Recipes { get; set; }
+        public Recipe Recipe { get; set; }
     }
 }

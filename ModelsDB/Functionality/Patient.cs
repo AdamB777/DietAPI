@@ -8,7 +8,8 @@ namespace ModelsDB
     {
         public Dietician Dietician { get; set; }
         public int DieticianId { get; set; }
-        public List<PatientCard> PatientCard { get; set; }
+        public PatientCard PatientCard { get; set; }
+        public int PatientCardId { get; set; }
         public List<Diet> Diets { get; set; }
         public List<Comment> Comments { get; set; }
         public List<Rating> Ratings { get; set; }

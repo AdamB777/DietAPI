@@ -19,5 +19,7 @@ namespace ModelsDB
         public List<FoodCatalog> FoodCatalogs { get; set; }
         public List<Office> Offices { get; set; }
         public List<Visit> Visits { get; set; }
+        public List<Comment> Comments { get; set; }
+        public List<Diet> Diets { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ModelsDB.Layout
 {
     [Table("Navbar")]
-    public class Navbar : BaseModel
+    public class MainNavbar : BaseModel
     {
         [Key]
         public int Id { get; set; }

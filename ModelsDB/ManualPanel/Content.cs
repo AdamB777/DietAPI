@@ -15,5 +15,8 @@ namespace ModelsDB.ManualPanel
         public int Id { get; set; }
         public string Text { get; set; }
         public string PhotoURL { get; set; }
+
+        public List<Manual> Manuals { get; set; }
+        public List<Document> Documents { get; set; }
     }
 }

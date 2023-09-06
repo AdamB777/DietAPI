@@ -10,6 +10,7 @@ namespace ModelsDB
         public int Id { get; set; }
         public string Step { get; set; }
 
-        public List<Dish> Dishes { get; set; }
+        public Dish Dish { get; set; }
+        public int DishId { get; set; }
     }
 }

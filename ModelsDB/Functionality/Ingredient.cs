@@ -15,6 +15,6 @@ namespace ModelsDB
         public float Glycemic { get; set; }
         public float Quantity { get; set; }
 
-        public List<Dish> Dish { get; set; }
+        public List<Dish> Dishes { get; set; }
     }
 }
