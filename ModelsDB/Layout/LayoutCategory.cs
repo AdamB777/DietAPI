@@ -18,7 +18,6 @@ namespace ModelsDB.Layout
         public string Description { get; set; }
 
         public MainNavbar MainNavbar { get; set; }
-        public int MainNavbarId { get; set; }
         public List<Link> Links { get; set; }
     }
 }

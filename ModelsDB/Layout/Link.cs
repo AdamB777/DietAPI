@@ -20,7 +20,6 @@ namespace ModelsDB.Layout
         public Footer Footer { get; set; }
         public int FooterId { get; set; }
         public SubTab SubTab { get; set; }
-        public int SubTabId { get; set; }
         public LayoutCategory LayoutCategory { get; set; }
         public int LayoutCategoryId { get; set; }
     }

@@ -17,7 +17,6 @@ namespace ModelsDB
         public string LocalNo { get; set; }
 
         public Footer Footer { get; set; }
-        public int FooterId { get; set; }
         public List<User> Users { get; set; }
         public int OfficeId { get; set; }
         public Office Office { get; set; }
