@@ -15,7 +15,7 @@ namespace ModelsDB
         public string Street { get; set; }
         public string LocalNo { get; set; }
 
-        public List<MyUser> Users { get; set; }
+        public List<User> Users { get; set; }
         public int OfficeId { get; set; }
         public Office Office { get; set; }
 
