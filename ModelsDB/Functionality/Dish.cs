@@ -1,9 +1,13 @@
-﻿using System.Diagnostics.Metrics;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics.Metrics;
 
 namespace ModelsDB
 {
+    [Table("Dish")]
     public class Dish : BaseModel
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public float Micronutrient { get; set; }
@@ -15,7 +19,7 @@ namespace ModelsDB
         public int FoodCatalogId { get; set; }
         public FoodCatalog FoodCatalog { get; set; }
         public int IngridientId { get; set; }
-        public Ingridient Ingridient { get; set; }
+        public Ingredient Ingridient { get; set; }
         public int MeasureId { get; set; }
         public Measure Measure { get; set; }
         public int RecipesId { get; set; }

@@ -1,7 +1,12 @@
-﻿namespace ModelsDB
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ModelsDB
 {
+    [Table("TestEqual")]
     public class TestEqual : BaseModel
     {
+        [Key]
         public int Id { get; set; }
         public DateTime TestDate { get; set; }
 

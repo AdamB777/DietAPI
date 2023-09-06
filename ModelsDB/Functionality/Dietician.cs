@@ -1,29 +1,16 @@
 ﻿using ModelsDB.Functionality;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ModelsDB
 {
-    public class Dietician:BaseModel
+    [Table("Dietician")]
+    public class Dietician : User
     {
-        public int Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public string Phone { get; set; }
-        public string PhotoUrl { get; set; }
-        public bool isPatient { get; set; }
-        public bool isDietician { get; set; }
-        public bool isAdmin { get; set; }
-
-
-        public Address Address { get; set; }
-        public int AddressId { get; set; }
-        public List<Note> Notes { get; set; }
         public int RatingId { get; set; }
         public Rating Rating { get; set; }
         public List<Message> Messages { get; set; }

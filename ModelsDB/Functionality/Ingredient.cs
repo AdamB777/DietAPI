@@ -1,7 +1,12 @@
-﻿namespace ModelsDB
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ModelsDB
 {
-    public class Ingridient : BaseModel
+    [Table("Ingredient")]
+    public class Ingredient : BaseModel
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public float Micronutrient { get; set; }
